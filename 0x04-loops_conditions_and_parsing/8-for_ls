@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# displays content of the current directory in a list format
+
+for i in *; do
+	echo "$i" | cut -d '-' -f2
+done
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Securit
